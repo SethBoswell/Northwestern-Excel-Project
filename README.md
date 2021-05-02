@@ -21,9 +21,24 @@ I provided a further breakdown of the datset by creating an additonal pivot tabl
 ![Theater Outcomes by Launch Date Percents Pivot Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals%20Percents%20Pivot%20Table.png)
 
 ![Theater Outcomes by Launch Percents Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals%20Percents%20Chart.png)
+
+I thought the most challenging portion of this part was creating the second pivot table, which calculates the proportion of campaigns that were successful vs cancelled vs failed for each month. I had to figure out how to show values as "% of row total" from the pivot table options in order to display the data how I wanted. I thought this created a nice pivot table that details whether there were certain months that saw a significant decrease in the proportion of campaigns that were successful. 
 ### Results
 You can see from the first pivot table and line graph above that number of successful theater campaigns peaked heavily in May and then steadily declined from there. By December, the number of successful campaigns is almost equal to the number of failed ones. A possible explanation is that theaters become increasingly popular in the summer months as people tend to spend more on entertainment and enjoyable activities, so they receive more funding. In the winter months, Louise's targeting goals may be too high since  less campaigns are reaching their goal targets. However, further analysis would be necessary to determine this fact. You can also tell that the number of failed campaigns remained relatively consistent across time and there were only a few campaigns each month that ended up being canceled. 
 
 Furthermore, based on the second pivot table and line graph above, you can see that the proportion of campaigns that are successful, failed, or canceled remains relatively stable across the months, except in December. There is an uptick in the proprotion of campagins that fail and a downtick in the proprtion that succeed in this month. Based on these facts, I would recommend revising goal targets downward in December to have more campaigns meet their goals. Another option would be to increase funding for promotional activities during this month to increase funding and increase the amount and proportion of campaigns that succeed. 
 
+
+## Outcomes based on Goals
+
+### Analysis and Challenges
+Louise also wanted to know the number and proportion of *plays* that were successful for different goal amounts. To accomplish this task, I broke up the goal amounts into the following buckets:
+- Less than 1000
+- 1000 to 4999
+- 5000 to 9999
+- ...
+- Greater than 50000
+For each of these buckets, I calculated the number of plays that were successful, failed, or canceled. I then calculated the total number of plays for each bucket and the proportion that were successful vs failed vs canceled. You can see the results of this analysis below.
+
+![Outcomes Based on Goals Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals%20Table.png)
 
