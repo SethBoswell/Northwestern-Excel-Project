@@ -17,7 +17,7 @@ To identify monthly trends in the dataset, I created a line chart from the pivot
 
 
 I provided a further breakdown of the datset by creating an additonal pivot table that calculates, for each month, the percent of camapaigns that were successful, failed, and canceled. These statistics were also placed in a line chart. Included below is an image of the pivot table data and line chart.  
-
+![Theater Outcomes by Launch Date Pivot Table 2](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals%20Percents%20Chart.png)
 
 ### Results
 You can see from the first pivot table and line graph above that number of successful theater campaigns peaked heavily in May and then steadily declined from there. By December, the number of successful campaigns is almost equal to the number of failed ones. A possible explanation is that theaters become increasingly popular in the summer months as people tend to spend more on entertainment and enjoyable activities, so they receive more funding. In the winter months, Louise's targeting goals may be too high since  less campaigns are reaching their goal targets. However, further analysis would be necessary to determine this fact. You can also tell that the number of failed campaigns remained relatively consistent across time and there were only a few campaigns each month that ended up being canceled. 
