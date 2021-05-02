@@ -11,16 +11,16 @@ For my analysis, I created pivot tables and charts/visualizations to provide ans
 ### Analysis and Challenges
 Louise wanted to understand how theater campaigns in her Kickstarter dataset performed over time. To help her with this, I created a pivot table from the original dataset. You are able to filter by Parent Category, which is currently set as "theater" since Louise wanted to know about theater campaigns, and the year the campaign was launched, which currently is unfiltered (so all years are included in the summary statistics). The pivot table provides a monthly breakdown of the the number of theater campaigns that were either successful (i.e., fundraising met goal amount), failed, or canceled. For example, there were a total of 56 campaigns that were started in a January between 2009 and 2017 (the year ranges of the dataset). There were also 96 total campaigns that were launched in January and a total of 839 campaigns that were successful. The full pivot table statistics are included below.
 
-![Theater Outcomes by Launch Date Count Pivot Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch%20Pivot%20Table.png)
+![Theater Outcomes by Launch Date Count Pivot Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch%20Pivot%20Table.png)
 
 To identify monthly trends in the dataset, I created a line chart from the pivot table statistics that graphs the number of successful, failed, and canceled campaigns across each month. This chart is included below as well. 
 
-![Theater Outcomes by Launch Date Count Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+![Theater Outcomes by Launch Date Count Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 I provided a further breakdown of the datset by creating an additonal pivot table that calculates, for each month, the percent of camapaigns that were successful, failed, and canceled. These statistics were also placed in a line chart. Included below is an image of the pivot table data and line chart.  
-![Theater Outcomes by Launch Date Percents Pivot Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch%20Percents%20Pivot%20Table.png)
+![Theater Outcomes by Launch Date Percents Pivot Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch%20Percents%20Pivot%20Table.png)
 
-![Theater Outcomes by Launch Percents Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch%20Percents%20Chart.png)
+![Theater Outcomes by Launch Percents Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch%20Percents%20Chart.png)
 
 I thought the most challenging portion of this part was creating the second pivot table, which calculates the proportion of campaigns that were successful vs cancelled vs failed for each month. I had to figure out how to show values as "% of row total" from the pivot table options in order to display the data how I wanted. I thought this created a nice pivot table that details whether there were certain months that saw a significant decrease in the proportion of campaigns that were successful. 
 ### Results
@@ -41,11 +41,11 @@ Louise also wanted to know the number and proportion of *plays* that were succes
 
 For each of these buckets, I calculated the number of plays that were successful, failed, and canceled. I then calculated the total number of plays for each bucket and the proportion that were successful vs failed vs canceled. You can see the results of this analysis below.
 
-![Outcomes Based on Goals Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals%20Table.png)
+![Outcomes Based on Goals Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals%20Table.png)
 
 I then created a line graph that graphs the proportion of successful, failed, and canceled plays for each goal bucket. You can see the results of that analysis below.
 
-![Outcomes Based on Goals Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+![Outcomes Based on Goals Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 The most challenging aspect of this part of the project was creating the 'CountIfs' formulas to account for all of the different buckets. I had to ensure that all my CountIf formulas were properly separating out the goal amounts into each bucket, which included making sure that I was dealing with "fringe" cases by using the ">=" and "<=" sign.
 
