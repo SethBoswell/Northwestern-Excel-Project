@@ -39,7 +39,7 @@ Louise also wanted to know the number and proportion of *plays* that were succes
 - ...
 - Greater than 50000
 
-For each of these buckets, I calculated the number of plays that were successful, failed, or canceled. I then calculated the total number of plays for each bucket and the proportion that were successful vs failed vs canceled. You can see the results of this analysis below.
+For each of these buckets, I calculated the number of plays that were successful, failed, and canceled. I then calculated the total number of plays for each bucket and the proportion that were successful vs failed vs canceled. You can see the results of this analysis below.
 
 ![Outcomes Based on Goals Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals%20Table.png)
 
