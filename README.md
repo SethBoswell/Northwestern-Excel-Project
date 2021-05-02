@@ -11,7 +11,7 @@ For my analysis, I created pivot tables and charts/visualizations to provide ans
 ### Analysis and Challenges
 Louise wanted to understand how theater campaigns in her Kickstarter dataset performed over time. To help her with this, I created a pivot table from the original dataset. You are able to filter by Parent Category, which is currently set as "theater" since Louise wanted to know about theater campaigns, and the year the campaign was launched, which currently is unfiltered (so all years are included in the summary statistics). The pivot table provides a monthly breakdown of the the number of theater campaigns that were either successful (i.e., fundraising met goal amount), failed, or canceled. For example, there were a total of 56 campaigns that were started in a January between 2009 and 2017 (the year ranges of the dataset). There were also 96 total campaigns that were launched in January and a total of 839 campaigns that were successful. The full pivot table statistics are included below.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Theater Outcomes by Launch Date Pivot Table 1](https://github.com/SethBoswell/kickstarter-analysis/blob/49d54336db1dd173bf66959fcf056ec2d5682583/Out)
 
 To identify monthly trends in the dataset, I created a line chart from the pivot table statistics that graphs the number of successful, failed, and canceled campaigns across each month. This chart is included below as well. 
 
