@@ -15,7 +15,7 @@ Louise wanted to understand how theater campaigns in her Kickstarter dataset per
 
 To identify monthly trends in the dataset, I created a line chart from the pivot table statistics that graphs the number of successful, failed, and canceled campaigns across each month. This chart is included below as well. 
 
-![Theater Outcomes by Launch Date Count Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals%20Pivot%20Table.png)
+![Theater Outcomes by Launch Date Count Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
 I provided a further breakdown of the datset by creating an additonal pivot table that calculates, for each month, the percent of camapaigns that were successful, failed, and canceled. These statistics were also placed in a line chart. Included below is an image of the pivot table data and line chart.  
 ![Theater Outcomes by Launch Date Percents Pivot Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals%20Percents%20Pivot%20Table.png)
