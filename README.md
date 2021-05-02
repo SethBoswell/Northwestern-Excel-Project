@@ -43,3 +43,16 @@ For each of these buckets, I calculated the number of plays that were successful
 
 ![Outcomes Based on Goals Table](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals%20Table.png)
 
+I then created a line graph that graphs the proportion of successful, failed, and canceled plays for each goal bucket. You can see the results of that analysis below.
+
+![Outcomes Based on Goals Line Chart](https://github.com/SethBoswell/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+
+The most challenging aspect of this part of the project was creating the 'CountIfs' formulas to account for all of the different buckets. I had to ensure that all my CountIf formulas were properly separating out the goal amounts into each bucket, which included making sure that I was dealing with "fringe" cases by using the ">=" and "<=" sign.
+
+### Results
+One interesting observation was that there were 0 cancelled plays across all of the different goal amount buckets. I am not sure why this is the case; however, it could be interesting to do further analysis to compare plays to other Theater campaign subcategories such as "musicals" and "spaces" (see Limitations and Future Work).
+
+The table above shows that the majority of the plays had goal amounts less than about $25,000. The line chart indicates that plays with goal amounts less than about $15,00 tend to have a higher proportion that are successful instead of failing. The data is mixed for plays with goal amounts from about $15,000 to $45,000 and, for plays greater than $45,000, there is a higher proportion that fail then are successful. I would recommend that Louise continue to focus on plays with smaller goal amounts to increase the amount of plays that end up successful. She could also revise her goal amounts downward for plays costing more than $45,000 since these plays are less likely to raise this amount. 
+
+## Limitations and Future Work
+
